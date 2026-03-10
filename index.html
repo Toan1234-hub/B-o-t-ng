@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12A3 - Chúc Mừng 8/3</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff9fb;
+            margin: 0;
+            padding: 0;
+            color: #444;
+        }
+
+        /* 1. Phần Tiêu Đề */
+        header {
+            background: linear-gradient(135deg, #ff4081, #7b1fa2);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 5px solid #f48fb1;
+        }
+
+        header h1 {
+            font-size: 3.2rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            font-size: 1.4rem;
+            margin-top: 15px;
+            font-weight: 300;
+        }
+
+        /* Bố cục chính */
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 25px;
+            padding: 0 20px;
+        }
+
+        /* 2. Phần Nội dung chính */
+        .main-content {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255,105,180,0.1);
+        }
+
+        .article-intro {
+            border-bottom: 2px solid #fce4ec;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        .article-intro h2 {
+            color: #ad1457;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .comment-section-posts h3 {
+            color: #6a1b9a;
+            border-left: 6px solid #ff4081;
+            padding-left: 15px;
+            margin-bottom: 25px;
+            font-size: 1.5rem;
+        }
+
+        .post {
+            background: #fff5f8;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            border: 1px solid #fce4ec;
+            position: relative;
+        }
+
+        .post h4 {
+            margin: 0 0 10px 0;
+            color: #d81b60;
+            font-size: 1.2rem;
+        }
+
+        .post p em {
+            color: #880e4f;
+            font-weight: bold;
+        }
+
+        /* Góc bình luận */
+        .interaction-zone {
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            border: 1px solid #f8bbd0;
+            height: fit-content;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .interaction-zone h3 {
+            margin-top: 0;
+            color: #ad1457;
+            text-align: center;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 12px;
+            border: 1px solid #f8bbd0;
+            border-radius: 10px;
+            box-sizing: border-box;
+            background: #fff;
+        }
+
+        button {
+            background: linear-gradient(to right, #ff4081, #d81b60);
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.02);
+            box-shadow: 0 5px 15px rgba(216, 27, 96, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            .container { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>12A3 - RẠNG RỠ VƯỜN HOA</h1>
+        <p>Gửi ngàn lời chúc yêu thương đến Cô Tâm và các bạn nữ 12A3</p>
+    </header>
+
+    <div class="container">
+        <main class="main-content">
+            
+            <section class="article-intro">
+                <h2>Lời Ngỏ Từ Các Bạn Nam</h2>
+                <p>Nhân ngày Quốc tế Phụ nữ 8/3, thay mặt cho tất cả các thành viên nam trong lớp, chúng tớ xin gửi những tình cảm chân thành nhất đến <strong>Cô Tâm</strong> - người mẹ hiền thứ hai, và toàn thể <strong>các bạn nữ 12A3</strong> xinh đẹp, học giỏi.</p>
+                <p>Cảm ơn mọi người đã luôn là mảnh ghép tuyệt vời nhất để tạo nên một tập thể 12A3 rực rỡ và đầy kỷ niệm!</p>
+            </section>
+
+            <section class="comment-section-posts">
+                <h3>Góc Tâm Tình 12A3</h3>
+
+                <article class="post">
+                    <h4>Tri ân người lái đò tận tụy</h4>
+                    <p><em>Người viết: Phạm Mạnh</em></p>
+                    <p>Em xin gửi lời chúc sức khỏe và hạnh phúc nhất đến <strong>Cô Tâm</strong>. Cảm ơn cô đã luôn kiên nhẫn và dìu dắt chúng em trong năm học cuối cấp đầy áp lực này. Chúc cô luôn trẻ trung, nhiệt huyết và mãi là ngọn lửa ấm áp của lớp mình cô nhé!</p>
+                </article>
+
+                <article class="post">
+                    <h4>Gửi những "bóng hồng" của lớp</h4>
+                    <p><em>Người viết: Mạnh Toàn</em></p>
+                    <p>Chúc các bạn nữ 12A3 ngày 8/3 tràn ngập hoa, quà và những lời chúc ngọt ngào. Mong các bạn luôn tự tin, tỏa sáng và đặc biệt là giữ vững phong độ để tất cả chúng ta cùng "vượt vũ môn" thành công trong kỳ thi sắp tới!</p>
+                </article>
+
+                <article class="post">
+                    <h4>Lời hứa từ các chàng trai</h4>
+                    <p><em>Người viết: Thành Đạt</em></p>
+                    <p>Các bạn nữ cứ việc xinh đẹp và học tốt, còn mọi việc nặng nhọc cứ để phe nam chúng tớ lo! Chúc một nửa thế giới của 12A3 luôn rạng rỡ như những đóa hoa hướng dương, luôn hướng về phía mặt trời và đạt được mọi ước mơ của mình.</p>
+                </article>
+            </section>
+        </main>
+
+        <aside class="interaction-zone">
+            <h3>Gửi Lời Chúc Mới</h3>
+            <p style="font-size: 0.85rem; text-align: center; color: #666; margin-bottom: 20px;">Các bạn nam khác hãy tiếp tục gửi lời chúc tại đây nhé!</p>
+            
+            <input type="text" placeholder="Tên của bạn (VD: Tuấn Anh...)">
+            <textarea placeholder="Nhập lời chúc ý nghĩa của bạn dành cho Cô và các bạn nữ..."></textarea>
+            
+            <button onclick="alert('Lời chúc của bạn đã được gửi đi thành công!')">Gửi Lời Chúc</button>
+        </aside>
+    </div>
+
+</body>
+</html>
